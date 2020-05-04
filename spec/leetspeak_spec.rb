@@ -13,4 +13,5 @@ describe('#leet_speak') do
   end
   it('replaces every "I" in a string with a "1"') do
     expect(leet_speak("I like Ice")).to(eq("1 lik3 1c3"))
+  end
 end
