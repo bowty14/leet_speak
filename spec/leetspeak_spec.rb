@@ -14,4 +14,7 @@ describe('#leet_speak') do
   it('replaces every "I" in a string with a "1"') do
     expect(leet_speak("I like Ice")).to(eq("1 lik3 1c3"))
   end
+  it('replaces every "s" in a string with a "z"') do
+    expect(leet_speak("sally sales seashells down by the seaside")).to(eq("zally zalez zeashellz down by the zeazide"))
+  end
 end
